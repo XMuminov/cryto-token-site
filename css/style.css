@@ -1,0 +1,608 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global css */
+@import url(./partials/_global.css);
+
+/* start navigation */
+
+.header_area .main-menu .navbar{
+   padding: 56px  0;
+}
+.header_area .main-menu .nav-item .nav-link{
+   font: normal 600 16px/24px var(--roboto3);
+   padding-left: 45px;
+   color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active{
+   color: var(--active-color);
+}
+.header_area .main-menu .navbar-nav a:hover{
+   color: var(--active-color);
+}
+
+.header_area .main-menu .navbar i{
+   color: var(--title-color);
+}
+.navbar-toggler {
+   padding: 0;
+}
+
+/* end navigation */
+
+/* Start Best Section */
+
+.best-section .row .best-text {
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+.best-section .row {
+   padding: 0 0 0 20px;
+}
+
+/* End Best Section */
+
+/* start who section */
+
+.who-width {
+   max-width: 400px;
+}
+.who-width button {
+   margin: 40px 0;
+}
+.who-row {
+   position: relative;
+   background-color: var(--bg-color);
+   padding: 70px 0;
+   margin: 100px 20px 150px 20px;
+   border-radius: 24px;
+}
+.who-text {
+   margin: 20px 0;
+}
+.who-row::before{
+   content: "";
+   height: 434px;
+   width: 4px;
+   position: absolute;
+   transform: translateY(10%);
+   background-color:#748FB5;
+   opacity: 0.1;
+}
+
+/* end who section */
+
+/* start winner section */
+
+.winner-section .l-gradient{
+   position: relative;
+}
+.winner-section .l-gradient .p-gradient{
+   position: absolute;
+   top: 30px;
+   left: 0;
+   z-index: -1;
+}
+.winner-item {
+   padding-left: 100px;
+}
+
+/* end winner section */
+
+/* start tools section */
+
+.tools-section {
+   background-color:var(--bg-rgba);
+   margin-top: 150px;
+   margin-bottom: 120px;
+   padding-top: 80px;
+   padding-bottom: 124px;
+}
+.tools-content {
+ margin-top: 80px;
+}
+.tools-col {
+   margin: 10px;
+   position: relative;
+   width: 260px;
+   height: 200px;
+   background-color: var(--body-color);
+   border-radius: 20px;
+   cursor: pointer;
+   transition: all .6s ease;
+}
+.tools-col:hover {
+   transform: scale(1.1);
+}
+.tools-col img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/* end tools section */
+
+/* start learn section */
+
+/* end learn section */
+
+/* start gamer section */
+.gamer-row {
+   margin: 150px 20px 125px 20px;
+}
+.gamer-item {
+   margin-top: 20px;
+}
+.gamer-section .row-item {
+   background-color: var(--bg-color);
+   padding:40px;
+   border-radius: 20px;
+   height: 100%;
+}
+.gamer-col {
+   padding: 0;
+   padding: 10px;
+}
+.gamer-section .winner-item2 {
+   padding-right: 115px;
+}
+.row-item-title {
+   margin-top: 100px;
+   margin-bottom: 55px;
+}
+
+/* end gamer section */
+/* start token section */
+
+.token-section {
+   background-color: var(--bg-rgba);
+   padding-top: 80px;
+   padding-bottom: 100px;
+}
+.token-col {
+   margin-top: 100px;
+   margin-bottom: 90px;
+}
+.token-item {
+   background-color: var(--body-color);
+   padding: 120px 50px 54px;
+   height: 100%;
+   border-radius: 20px;
+}
+.token-item img {
+   position: absolute;
+   left: 50%;
+   top: 5%;
+   transform: translate(-50%, -50%);
+}
+.token-col-text {
+   display: flex;
+   justify-content: center;
+}
+.token-text {
+   max-width: 1000px;
+   padding: 30px 40px;
+   background: rgba(247, 165, 1, 0.05);
+   border: 1px solid #F7A501;
+   border-radius: 10px;
+}
+
+/* end token section */
+/* start nft section */
+.nft-section .row {
+   padding: 65px 0 66px 0;
+   margin: 150px 20px 100px;
+   background-color: var(--bg-color);
+   border-radius: 20px;
+}
+.nft-section .nft-title {
+   font: normal 700 36px/44px var(--roboto1);
+   color: var(--title-color);
+}
+.nft-text {
+   font: normal 500 18px/21px var(--roboto1);
+   color: var(--text-color);
+   margin-top: 14px;
+   margin-bottom: 40px;
+}
+.nft-btn {
+   border: 1px solid #fff;
+   font: normal bold 17px/20.55px var(--roboto1);
+   padding: 25px 40px;
+   transition: .3s ease;
+}
+.nft-btn:hover {
+   border: 1px solid var(--title-color);
+   background: transparent;
+   color: var(--title-color);
+}
+/* end nft section */
+/* start footer area */
+.footer-row {
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-bottom: 81px;
+}
+.footer-icon{
+   width: 34px;
+   height: 34px;
+   background-color: var(--bg-color);
+   border-radius: 5px;
+   transition: all .4s ease;
+}
+.footer-icon:not(:last-child) {
+   margin-right: 10px;
+}
+.footer-icon img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+.footer-icon:hover {
+   background-color: #748FB5;
+}
+.footer-item {
+   margin-top: 50px;
+}
+.footer-item .active {
+   background-color: var(--blue-footer);
+}
+.footer-line {
+   margin-bottom: 50px;
+}
+.footer-row .col-lg-4 {
+   padding-left: 0;
+}
+.footer-list-title {
+   font: normal bold 16px/24px var(--roboto2);
+   margin-bottom: 20px;
+}
+.footer-link a{
+   text-decoration-line: none;
+   list-style: none;
+   font: normal 400 14px/17px var(--roboto3);
+   color: #e2dfdf;
+}
+.footer-link a:hover, .footer-p12-text:hover {
+   color: var(--title-color);
+   text-decoration: underline;
+}
+.footer-link:not(:last-child){
+   margin-bottom: 14px;
+}
+.footer-mt {
+   margin-top: 80px;
+   margin-bottom: 20px;
+}
+.footer-p_flex{
+   display: flex;
+   justify-content: end;
+}
+.footer-p12-text {
+   text-decoration: none;
+   color: var(--title-color);
+   font: normal 500 12px/14.52px var(--roboto3);
+}
+.footer-p12-link {
+   margin-left: 30px;
+}
+.footer-col{
+   padding-left: 40px;
+}
+.p-column{
+   padding: 0;
+}
+/* end footer area */
+
+/* ======= About ========*/
+
+/* start words area */
+.words_area .row {
+   padding: 127px 20px 74px 20px;
+}
+.words_area .about-title {
+   margin-bottom: 30px;
+   width: 451px;
+}
+.about-col_img {
+   display: flex;
+   justify-content: end;
+   padding-right: 44px;
+}
+
+/* end words area */
+
+/* start text area */
+
+.text-row{
+  padding: 80px 20px 120px 20px;
+}
+.text-row .col1-text{
+   padding-right: 30px;
+}
+.text-row .col2-text{
+   padding-left: 30px;
+}
+
+/* end text area */
+
+/* start why area */
+
+.why_area .row-why {
+   background-color: var(--bg-color);
+   margin: 0 20px 169px 20px ;
+   border-radius: 24px;
+   padding: 80px 97px 121px 70px;
+}
+.why-col2{
+   padding-left: 40px;
+}
+.why-col2 .col2-title {
+   margin-bottom: 24px;
+}
+.why-col1 img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.why-col {
+   z-index: 1;
+}
+.why_area .content-1 {
+   background-color: #fff;
+   opacity: 0.1;
+   border-radius: 24px;
+   width: 97%;
+   height: 100px;
+   bottom: -16px;
+   z-index: -1;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+/* end why area */
+/* ======= About ========*/
+
+/* ======= GameFi ========*/
+
+/* start gamefi area */
+
+.gamerfi_area .row{
+   padding: 81px 13px 97px 20px;
+}
+.gamerfi-text{
+   margin-top: 30px;
+}
+.gamefi-img {
+   display: flex;
+   justify-content: end;
+}
+.gamefi-title{
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.gamefi-btn {
+   margin-top: 30px;
+}
+
+/* end gamefi area */
+
+/* start strateg area */
+
+.strateg_area .row {
+   padding-top: 24px;
+   padding-bottom: 126px;
+}
+
+/* end strateg area */
+
+/* start most area */
+.most_area {
+   background-color: var(--bg-rgba);
+}
+.most-row {
+   padding-top: 80px;
+   padding-bottom: 146px;
+}
+.most-text {
+   margin-top: 20px;
+   margin-bottom: 80px;
+}
+.most-item {
+   position: relative;
+   min-height: 300px;
+   background-color: var(--bg-color);
+   padding-top: 170px;
+   padding-bottom: 45px;
+   border-radius: 20px;
+   margin-bottom: 20px;
+}
+.item-most_title {
+   font: normal bold 18px/27px var(--roboto1);
+   color: var(--title-color);
+   margin: 20px 0 14px;
+}
+.item-most_text {
+   font: normal 500 14px/22px var(--roboto3) ;
+   color: var(--title-color);
+}
+.most-item img {
+   position: absolute;
+   top: 50px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+/* end most area */
+
+/* start cases area */
+
+.cases_area .row {
+   padding: 50px 20px;
+}
+.cases-title {
+   margin-bottom: 30px;
+}
+
+/* end cases area */
+
+/* ======= GameFi ========*/
+
+/* ======= Learn ========*/
+
+/* start earn erea */
+
+.earn-row {
+   margin: 56px 60px 100px;
+}
+.earn-title{
+   text-align: center;
+   margin-bottom: 90px;
+}
+
+/* end earn erea */
+
+/* start earn-text erea */
+
+.earn-text-row {
+   padding: 0 20px 156px 20px;
+}
+.earn-item1 {
+   padding-right: 30px;
+}
+.earn-item2 {
+   padding-left: 30px;
+}
+
+/* end earn-text erea */
+
+/* start process erea */
+
+.process-row {
+   background-color: var(--bg-color);
+   border-radius: 24px;
+   margin: 0 20px 167px;
+}
+.process-item1 {
+   padding: 425px 61.5px 228px 100px;
+}
+.process-item2 {
+   padding: 80px 80px 80px 61.5px;
+}
+.item-process_img{
+   position: absolute;
+   top: -44px;
+}
+.item-process_title {
+   margin-bottom: 24px;
+}
+.process-item2 img {
+   margin-right: 24px;
+}
+.process-item2 .item-col {
+   padding-bottom: 24px;
+}
+.process-item2 .item-title {
+   font: normal 20px/24px var(--roboto1);
+   color: var(--title-color);
+   margin-bottom: 16px;
+}
+.process-line {
+   width: 76%;
+   margin-bottom: 40px;
+}
+
+/* end process erea */
+
+/* ======= Learn ========*/
+
+/* ======= DeFi ========*/
+
+/* start industry area */
+
+.industry-row {
+   padding: 0 20px;
+}
+.industry-item {
+   max-width: 1000px;
+   margin-top: 80px;
+   margin-bottom: 96px;
+}
+
+/* end industry area */
+
+/* atart platform area */
+
+.platform-item {
+   display: flex;
+   justify-content: center;
+   padding: 0 15px;
+}
+.platform-col {
+   width: 800px;
+}
+
+/* end platform area */
+
+/* atart models area */
+
+.models-row {
+   display: flex;
+   justify-content: center;
+   padding: 270px 15px 0px;
+}
+.models-col {
+   width: 800px;
+}
+.models-col img {
+   position: absolute;
+   top: -196px;
+   left: -30px;
+}
+.models-title{
+   font: normal 600 22px/36.4px var(--roboto1);
+   color: var(--title-color);
+   letter-spacing: 0.5%;
+   margin-bottom: 24px;
+}
+
+/* end models area */
+
+/* start compounds area */
+
+.compounds-row {
+   display: flex;
+   justify-content: center;
+   padding: 70px 15px 150px;
+}
+.compounds-col {
+   width: 800px;
+}
+
+/* end compounds area */
+
+/* ======= DeFi ========*/
+
+/* ======= Ask ========*/
+
+.ask-row {
+   margin-top: 56px;
+   margin-bottom: 150px;
+   padding: 0 20px;
+}
+.ask-col1 {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 130px;
+}
+.ask-col2 {
+   
+}
+
+/* ======= Ask ========*/

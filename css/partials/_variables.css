@@ -1,0 +1,35 @@
+
+html, body {
+   background-color: var(--body-color);
+   color: var(--title-color);
+   margin: 0%;
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+}
+
+/* CSS Variables */
+
+:root{
+   --body-color: #1E252B;
+   --active-color: #F7A501;
+   --primary-color2: #854fee;
+   --title-color: #F9F9F9;
+   --text-color: #ADB0B6;
+   --bg-F2-color: #f2f2f2;
+   --bg-color: #2C353D;
+   --bg-rgba: rgba(40, 48, 54, 0.3);
+   --blue-footer: #2D88FF;
+   --bg-rgba2: rgba(247, 165, 1, 0.05);
+   --nft-bg-color: #00B4FB;
+   --gradient-color: linear-gradient(135.15deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
+   --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+  
+
+   /* font family variables. */
+   --roboto1: 'Poppins';
+   --roboto2: 'Gilroy';
+   --roboto3: 'Inter';
+}
